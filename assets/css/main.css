@@ -10845,7 +10845,7 @@ footer {
 footer img {
   box-sizing: content-box;
   width: 10%;
-  padding: 50px;
+  padding: 40px 0 40px 0;
 }
 
 .shareButton {
