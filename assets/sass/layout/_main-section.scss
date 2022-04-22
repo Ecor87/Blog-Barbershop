@@ -1,0 +1,54 @@
+main{
+    article{
+        padding: 3% 10%;
+        font-family: 'Roboto', sans-serif;
+        font-size: $medium;
+        #date{
+            font-size: $large;
+            font-family: 'Playfair Display', serif;
+        }
+    }
+    p{
+        padding-top: 15px;
+    }
+    .articleButtons{
+        padding: 3% 0%;
+    }
+    .profile{
+        padding: 5% 10%;
+        img{
+            width: 100%;
+            border-radius: 50%;
+            border: 3px solid $lightGray;
+        }
+        .profileText{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        #profileName{
+            font-family: 'Playfair Display', serif;
+            font-size: $x-large;
+            font-style: italic;
+            font-weight: 900;
+            padding-top: 0;
+            margin-bottom: 0;
+        }
+        .profileLinks{
+            @extend #profileName;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-size: $large;
+            font-weight: 300;
+            color: $ruddyPink;
+            text-decoration: none;
+        }
+    }
+    .pages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $platinum;
+        height: 10vh;
+    }
+}
